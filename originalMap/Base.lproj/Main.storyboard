@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ndq-9y-hKB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ndq-9y-hKB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -82,7 +81,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bhp-8y-p4l">
-                                            <rect key="frame" x="352" y="13" width="42" height="19.5"/>
+                                            <rect key="frame" x="352.5" y="13" width="41.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -120,7 +119,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TJb-o2-7yx">
                                 <rect key="frame" x="354" y="284.5" width="44" height="80.5"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-Ib-W8v">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-Ib-W8v">
                                 <rect key="frame" x="97" y="277.5" width="220" height="52.5"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" name="CP_Revenge" family="CP_Revenge" pointSize="27"/>
@@ -143,7 +142,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北海道" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-cU-yD5">
                                 <rect key="frame" x="96.5" y="224" width="221" height="45.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" name="CP_Revenge" family="CP_Revenge" pointSize="20"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
@@ -205,8 +204,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="azf-Fm-ikg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="LCX-ub-R8c" firstAttribute="top" secondItem="XAg-cU-yD5" secondAttribute="bottom" constant="20" id="5d9-QP-lge"/>
                             <constraint firstItem="azf-Fm-ikg" firstAttribute="trailing" secondItem="ZnH-6k-aLe" secondAttribute="trailing" constant="16" id="60E-IQ-sN0"/>
@@ -242,6 +240,7 @@
                             <constraint firstItem="LCX-ub-R8c" firstAttribute="width" secondItem="loC-fb-JG8" secondAttribute="width" id="xnG-r0-Mui"/>
                             <constraint firstItem="XAg-cU-yD5" firstAttribute="top" secondItem="Fdd-Lj-JzB" secondAttribute="bottom" constant="8" symbolic="YES" id="y8V-ji-Aqq"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="azf-Fm-ikg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="記録" image="walk.png" selectedImage="walk.png" id="gqa-AI-SpO"/>
                     <connections>
@@ -292,18 +291,18 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KSF-0V-8UJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzw-nI-HMa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzw-nI-HMa">
                                 <rect key="frame" x="344" y="736" width="50" height="50"/>
-                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="ー"/>
                                 <connections>
                                     <action selector="clickZoomout:" destination="hbK-KF-DUa" eventType="touchUpInside" id="Uwd-oy-igc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyZ-dh-jdz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyZ-dh-jdz">
                                 <rect key="frame" x="344" y="678" width="50" height="50"/>
-                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -311,7 +310,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="NJI-xi-tSk"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mzw-nI-HMa" firstAttribute="top" secondItem="kyZ-dh-jdz" secondAttribute="bottom" constant="8" symbolic="YES" id="5Y1-UP-jTs"/>
@@ -327,6 +325,7 @@
                             <constraint firstItem="KSF-0V-8UJ" firstAttribute="trailing" secondItem="NJI-xi-tSk" secondAttribute="trailing" id="zp7-eW-3wp"/>
                             <constraint firstAttribute="bottom" secondItem="KSF-0V-8UJ" secondAttribute="bottom" id="zwY-q4-Si0"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="NJI-xi-tSk"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="地図" image="map.png" selectedImage="map.png" id="aB1-5x-Fb8"/>
                     <navigationItem key="navigationItem" id="6Na-ZR-Frx"/>
@@ -345,11 +344,5 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
